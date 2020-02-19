@@ -1,0 +1,271 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    line-height: 1.5rem;
+    user-select: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background: url(https://burgerking.vn/skin/frontend/bk2/default/images/bg-header-bottom.png)
+}
+
+#logo {
+    margin: 0.2rem;
+    width: 4rem;
+}
+
+.nav-items {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: black 1px 1px;
+    margin: 0 0.5rem;
+    font-family: 'Righteous', cursive;
+}
+
+.nav-items:hover{
+    color: #ce2305eb;
+    transition: all 300ms;
+}
+
+section {
+    width: 100%;
+    background-image: url("images/back-ground/bg-beside-1.png"), url("images/back-ground/bg-beside-2.png"), url("images/back-ground/bg-beside-3.png"), url("images/back-ground/bg-beside-4.png");
+    background-repeat: no-repeat;
+    background-position: right 160px, left 400px, right 750px, left 1100px;
+    background-color: #f0ebe5;
+    padding-bottom: 20px;
+}
+
+#hotline {
+    position: fixed;
+    right: 0;
+    bottom: 115px;
+}
+
+#menu {
+    width: 861px;
+    margin: 0 auto;
+}
+
+#title-menu {
+    padding-top: 5rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #c31c1c;
+    text-align: left;
+    padding-left: 0.5rem;
+}
+
+#menu-board {
+    width: 861px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding-bottom: 8px;
+}
+
+.menu-items {
+    width: 271px;
+    margin: 8px;
+    padding: 0;
+    text-align: center;
+    background-color: white;
+}
+
+.images-items {
+    width: 250px;
+    margin-top: 10px;
+}
+
+.name-items {
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 80%;
+    height: 2rem;
+    line-height: 1.5rem;
+}
+
+.price-items {
+    font-weight: 900;
+    color: #c31c1c;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.cta-items {
+    background-color: #f17a00;
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-weight: 900;
+    width: 100%;
+    height: 2.5rem;
+    font-size: 1.1rem;
+    font-family: cooper, sans-serif;
+    text-transform: capitalize;
+}
+
+.cta-items:hover {
+    background-color: red;
+    transition: all 500ms;
+}
+
+#section-bottom {
+    background: url(https://burgerking.vn/skin/frontend/bk2/default/images/BG-nav-bar-2.png);
+}
+
+#supporter {
+    width: 861px;
+    display: flex;
+    background: url(https://burgerking.vn/skin/frontend/bk2/default/images/BG-nav-bar-2.png);
+    padding: 0 0 14px 0;
+    margin: 0 auto;
+}
+
+#direction {
+    display: flex;
+    color: #c31c1c ;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 8px;
+    padding: 0px;
+    text-transform: uppercase;
+    height: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#maps {
+    width: 430.5px;
+    text-align: center;
+}
+
+#chat-bot {
+    width: 430.5px;
+    text-align: center;
+}
+
+.support-title {
+    display: flex;
+    color: white;
+    background-color:#f17a00;
+    width: 96%;
+    margin: 0 auto;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border: 1px solid #f17a00;
+    font-size: 1.5rem;
+}
+
+iframe {
+    width: 96%;
+    height: 400px;
+    margin-top: 8px;
+    border: 0.5px solid black;
+}
+
+#client {
+    width: 861px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.client-widget {
+    box-sizing: border-box;
+    border: 1px solid #c31c1c;
+    width: 271px;
+    background-color: antiquewhite;
+    padding: 1rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.client-widget:hover {
+    background-color: white;
+    transition: all 300ms;
+}
+
+.client-name {
+    color: #c31c1c;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    font-size: 1.3rem;
+    text-align: center;
+    height: 3.4rem;
+    padding: 0;
+}
+
+.label-address {
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.label-tel {
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.address {
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.work-time {
+    margin: 0;
+    font-style: italic;
+    text-align: center;
+    font-size: 1rem;
+}
+
+footer {
+    background-color: rgb(90, 33, 26);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 110px;
+    align-items: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.footer-left {
+    margin: 0;
+    width: 100%;
+    width: 30%;
+}
+
+
+.footer-right {
+    width: 30%;
+    margin: 0;
+}

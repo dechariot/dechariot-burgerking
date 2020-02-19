@@ -1,0 +1,123 @@
+body {
+    font-family: 'work-sans', Sans-serif;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+nav {
+    background: url(https://burgerking.vn/skin/frontend/bk2/default/images/bg-header-bottom.png);
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+a {
+    cursor: pointer;
+}
+
+.logo {
+    padding:  5px 0 5px 14px;
+    width: 60px;
+    height: auto;
+}
+
+.logo:hover {
+    transition-duration: 1000ms;
+}
+
+.nav-items {
+    text-decoration: none;
+    padding: 0px;
+    height: 100%;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-left: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-shadow: 1px 1px black;
+    font-family: 'Righteous', cursive;
+}
+
+.nav-items:hover {
+    color: #ce2305eb; 
+    transform-style: initial;
+    transition-duration: 500ms;
+    transition-delay:100ms;
+}
+
+section {
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+    background: url(https://burgerking.vn/skin/frontend/bk2/default/images/BG-nav-bar-2.png);
+}
+
+.homepage-banner {
+    width: 100%;
+}
+
+.homepage-aboutus-title {
+    text-align: center;
+    font-size: 5rem;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+#homepage-aboutus-main {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 100px;
+    max-width: 1100px;
+}
+
+.homepage-aboutus-heading {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.homepage-aboutus-content { 
+    font-size: 1.2rem;
+    margin-bottom: 50px;
+
+}
+
+#homepage-aboutus-contact {
+    background-image: url(/images/content/aboutBK-bg.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+footer {
+    background-color: rgb(90, 33, 26) ;
+    padding: 0 5px 0 5px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    width: auto;
+    color: white;
+    margin-top: 50px;
+    height: 100px;
+    align-items: center;
+}
+
+.homepage-footer-list {
+    list-style-type: none;
+    font-weight: 500;
+}
+
+.homepage-footer-list a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+}
+
